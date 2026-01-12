@@ -7,7 +7,7 @@ export const siteConfig = {
   },
   wedding: {
     date: "FEB 8, 2026",
-    time: "4PM",
+    time: "5PM",
     venue: "CASA ANTONIA, MANGALDAN, PANGASINAN",
     tagline: "are getting married!",
     theme: "Purple & Sage Motif",
@@ -23,7 +23,7 @@ export const siteConfig = {
     venue: "CASA ANTONIA, MANGALDAN, PANGASINAN",
     date: "February 8 2026",
     day: "Sunday",
-    time: "4:00PM",
+    time: "5:00PM",
     entourageTime: "3:30 PM",
     guestsTime: "3:30 PM",
   },

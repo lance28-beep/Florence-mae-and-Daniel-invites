@@ -130,7 +130,7 @@ export function Countdown() {
   ))
   
   const targetTimestamp = Number.isNaN(parsedTargetDate.getTime())
-    ? new Date(Date.UTC(2026, 1, 8, 8, 0, 0)).getTime() // Fallback: February 8, 2026, 4:00 PM GMT+8 = 8:00 AM UTC
+    ? new Date(Date.UTC(2026, 1, 8, 9, 0, 0)).getTime() // Fallback: February 8, 2026, 5:00 PM GMT+8 = 9:00 AM UTC
     : parsedTargetDate.getTime()
 
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
